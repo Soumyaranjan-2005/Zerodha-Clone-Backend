@@ -11,4 +11,4 @@ services:
       - key: PORT
         value: 3002
       - key: MONGO_URL
-        value: ''
+        value: 'mongodb+srv://soumyaranjanmahanna5_db_user:5l6NjvDzcPAPG58I@zerodhaclonecluster.y0pgluk.mongodb.net/zerodha?appName=ZerodhaCloneCluster'
