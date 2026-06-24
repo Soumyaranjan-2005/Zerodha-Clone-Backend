@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: zerodha-backend
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    branch: main
+    envVars:
+      - key: PORT
+        value: 3002
+      - key: MONGO_URL
+        value: ''
